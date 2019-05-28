@@ -19,8 +19,8 @@ class SimpleExample extends React.Component {
         url: "https://{s}.tile.osm.org/{z}/{x}/{y}.png" }),
 
       React.createElement(Marker, { position: position },
-      React.createElement(Popup, null, "A pretty CSS3 popup. ",
-      React.createElement("br", null), " Easily customizable."))));
+      React.createElement(Popup, null, "Geodata IT",
+      React.createElement("br", null), " 911 Washington Ave., Ste. 737"))));
 
 
 
