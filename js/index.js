@@ -20,7 +20,8 @@ class SimpleExample extends React.Component {
 
       React.createElement(Marker, { position: position },
       React.createElement(Popup, null, "Geodata IT",
-      React.createElement("br", null), " 911 Washington Ave., Ste. 737"))));
+      React.createElement("br", null), " 911 Washington Ave., Ste. 737",
+      React.createElement("br", null), " St. Louis, Missouri 63101"))));
 
 
 
