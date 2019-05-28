@@ -22,7 +22,7 @@ class SimpleExample extends React.Component {
       React.createElement(Popup, null, "Geodata IT",
       React.createElement("br", null), " 911 Washington Ave., Ste. 737",
       React.createElement("br", null), " St. Louis, Missouri 63101",
-      React.createElement("br", null), " 1-866-229-8606))));
+      React.createElement("br", null), " 1-866-229-8606"))));
 
 
 
