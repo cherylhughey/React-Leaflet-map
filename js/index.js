@@ -10,6 +10,10 @@ class SimpleExample extends React.Component {
 
   }
 
+ type State = {
+  bounds: Array<[45, 45]>,
+}
+  
   render() {
     const position = [this.state.lat, this.state.lng];
     return (
