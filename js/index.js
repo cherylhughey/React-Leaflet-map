@@ -14,7 +14,6 @@ class SimpleExample extends React.Component {
     const position = [this.state.lat, this.state.lng];
     return (
       React.createElement(LeafletMap, { center: position, zoom: this.state.zoom },
-      React.createElement(By Geodata IT, { center: position, zoom: this.state.zoom },
       React.createElement(TileLayer, {
         attribution: "\xA9 <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors",
         url: "https://{s}.tile.osm.org/{z}/{x}/{y}.png" }),
