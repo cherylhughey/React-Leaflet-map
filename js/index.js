@@ -7,6 +7,8 @@ class SimpleExample extends React.Component {
       lat: 38.6314054,
       lng: -90.1932178,
       zoom: 13 };
+    
+  }
   
   render() {
     const position = [this.state.lat, this.state.lng];
